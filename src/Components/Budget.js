@@ -24,6 +24,7 @@ const Budget = () => {
               type="text"
               className="form-control"
               id="name"
+              placeholder="Enter Budget"
               value={balance}
               onChange={(e) => setBalance(e.target.value)}
             />

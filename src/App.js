@@ -11,6 +11,7 @@ const App = () => {
   return (
     <AppProvider>
       <div className="container">
+      <div className="alert alert-warning text-center"><span>Don't forget to click Enter button after type budget amount!</span></div>
         <h1 className="mt-3 text-center">My Budget Planner</h1>
         <div className="row mt-3">
           <div className="col-sm">
